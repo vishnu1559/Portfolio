@@ -1,0 +1,124 @@
+.home{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(0, 0, 0);
+   align-items: center;
+   
+}
+
+.left_home img{
+    width:auto;
+    height:95vh;
+}
+
+.right_home{
+    padding:80px;
+    color:white;
+    
+}
+
+.right_home h1{
+    color:#18DEDE;
+    font-size: 50px;
+    
+}
+
+div.right_home p{
+    color:white;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    /* word-wrap: break-word; */
+    font-weight: lighter;
+    word-spacing: -2px;
+    /* letter-spacing: 0.5px; */
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .home{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+        
+     }
+     
+     .left_home img{
+         width:auto;
+         height:50vh;
+     }
+     
+     .right_home{
+         padding:80px;
+         color:white;
+         
+     }
+     
+     .right_home h1{
+         color:#18DEDE;
+         font-size: 25px;
+         
+     }
+     
+     div.right_home p{
+         color:white;
+         margin-right: 30px;
+         font-size: 15px;
+         line-height: 30px;
+         text-align: justify;
+         /* word-wrap: break-word; */
+         font-weight: lighter;
+         word-spacing: -2px;
+         /* letter-spacing: 0.5px; */
+         
+     }
+
+
+}
+
+ /*Android device*/
+@media only screen and (max-width: 600px) {
+    
+    .home{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+        
+     }
+     
+     .left_home img{
+         width:auto;
+         height:50vh;
+     }
+     
+     .right_home{
+         padding:80px;
+         color:white;
+         
+     }
+     
+     .right_home h1{
+         color:#18DEDE;
+         font-size: 25px;
+         
+     }
+     
+     div.right_home p{
+         color:white;
+         margin-right: 30px;
+         font-size: 15px;
+         line-height: 30px;
+         text-align: justify;
+         /* word-wrap: break-word; */
+         font-weight: lighter;
+         word-spacing: -2px;
+         /* letter-spacing: 0.5px; */
+         
+     }
+
+}

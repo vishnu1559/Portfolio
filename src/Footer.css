@@ -1,0 +1,13 @@
+.footer{
+    background-color: #1B242F;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+.footer{
+    font-size: 10px;
+}
+
+}

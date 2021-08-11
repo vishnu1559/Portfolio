@@ -1,0 +1,42 @@
+#navbar{
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252934;
+    height: 50px;
+    width: 100%;
+    
+    
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    color:#18DEDE;
+    margin-left: 3rem;
+    
+}
+
+.navlist ul{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    color:white;
+    
+}
+ul li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+    
+
+}
